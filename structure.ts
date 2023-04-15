@@ -11,7 +11,7 @@ export const getDefaultDocumentNode: DefaultDocumentNodeResolver =
             .component(Iframe)
             .options({
                 url: `${
-                    process.env.NEXT_PUBLIC_URL || "https://my-daily-cowza1.vercel.app"
+                    process.env.NEXT_PUBLIC_URL || "http://localhost:3000"
                 }/api/preview`,
 
                 defaultSize: 'desktop',
